@@ -1,0 +1,30 @@
+[
+    {
+        "label": "Echarts",
+        "children": [
+            {
+                "label": "仪表盘",
+                "path": "charts/chart_2.html"
+            },
+            {
+                "label": "圆",
+                "path": "charts/chart_3.html"
+            },
+            {
+                "label": "纵向列表",
+                "path": "charts/chart_4.html"
+            },
+            {
+                "label": "横向列表",
+                "path": "charts/chart_5.html"
+            },
+            {
+                "label": "图表",
+                "path": "charts/chart_1.html"
+            }
+
+
+
+        ]
+    }
+]

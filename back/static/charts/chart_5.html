@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="background:rgb(3,5,66)">
+<div id="chart" style="height: 400px; padding-top:20px"></div>
+
+</body>
+</html>
+<script type="text/javascript" src="../common/echarts.js"></script>
+
+<script>
+
+    var _chart = echarts.init(document.getElementById('chart'));
+
+    var weatherIcons = {
+        'Sunny': '../img/top1.png',
+        'Cloudy': '../img/top2.png',
+        'Showers': '../img/top3.png'
+    };
+    var option = {
+        tooltip: { //鼠标移到位置时候显示
+            show: false,
+            trigger: 'axis',
+            axisPointer: {
+                type: 'shadow'
+            }
+        },
+        grid: {
+            left: '5%',
+            right: '5%',
+            bottom: '0',
+            top: '0',
+            containLabel: true
+        },
+        xAxis: {
+            type: 'value',
+            axisLine: {  //坐标轴线
+                show: false
+            },
+            axisTick: { //坐标轴刻度线
+                show: false
+            },
+            axisLabel: { //坐标轴数字
+                show: false
+            },
+            splitLine: { //坐标轴分割线
+                show: false
+            }
+        },
+        yAxis: [{  //显示左侧纵向数据
+            type: 'category',
+            inverse: true,
+            data: ['Sunny', 'Cloudy', 'Showers', 'Sunny', 'Cloudy', 'Showers', 'Sunny'],
+            axisLine: {  //坐标轴线
+                show: false
+            },
+            axisTick: { //坐标轴刻度线
+                show: false
+            },
+            splitLine: { //坐标轴分割线
+                show: false
+            },
+            axisLabel: { //坐标轴数字属性
+                formatter: function (value, index) {
+                    return '{' + value + '| }\n{value|' + index + '}';
+                },
+                margin: 20,
+                rich: {  //对formatter中的数字设备属性 “rich中属性名|数值”
+                    value: {
+                        lineHeight: 10,
+                        align: 'center',
+                        padding:[0,0,-40,0],  //通过padding 设置数值居中
+                        fontSize: 16,
+                        color: "#fff"
+                    },
+                    Sunny: {
+                        height: 45,
+                        align: 'center',
+                        backgroundColor: {
+                            image: weatherIcons.Sunny,
+                        }
+                    },
+                    Cloudy: {
+                        height: 45,
+                        align: 'center',
+                        backgroundColor: {
+                            image: weatherIcons.Cloudy
+                        }
+                    },
+                    Showers: {
+                        height: 45,
+                        left: 'center',
+                        top: 'center',
+                        backgroundColor: {
+                            image: weatherIcons.Showers
+                        }
+                    }
+                }
+            }
+        },
+            { //显示右侧纵向数据
+                type: 'category',
+                position: "right",
+                nameLocation: 'end',
+                offset: 30,
+                axisLine: {
+                    show: false,
+                },
+                axisTick: {
+                    show: false
+                },
+                axisLabel: { 
+                    show: true,
+                    color: "#30d7e0",
+                    fontSize: 18,
+                    padding: [0, 20, 0, 0]
+                },
+                data: [19325, 23438, 31000, 121594, 134141, 681807, 121594],
+
+            }
+        ],
+        series: [
+            { //显示图中数据名称
+                name: '2011年',
+                type: 'bar',
+                data: [0, 0, 0, 0, 0, 0, 0],
+
+                label: {
+                    lineHeight: 25,
+                    show: true,
+                    position: 'right',
+                    offset: [0, -15], //设置值的偏移量
+                    textStyle: {
+                        fontSize: 16,
+                        color: "#30d7e0"
+                    },
+                    formatter: '{b}'
+                }
+            },
+            {//显示图中数据名称
+                name: '2012年',
+                type: 'bar',
+                barCategoryGap: '80%',
+                showBackground: true,
+                offset: [0, 0],
+                backgroundStyle: {
+                    color: 'rgba(180, 180, 180, 0)'
+                },
+                smooth: true,
+                itemStyle: {
+                    emphasis: {
+                        barBorderRadius: 7
+                    },
+                    normal: {
+                        barBorderRadius: 7,
+                        color: new echarts.graphic.LinearGradient(
+                            0, 0, 1, 0,    //  参数（0,0,1,0）设置横向渐变，参数(0,0,0,1)设置顺向渐变 （根据1的位置设置从左到右，从右到左，上到下，下到上的设置）
+                            [
+                                {offset: 0, color: '#2378f7'},
+                                {offset: 1, color: '#83bff6'}
+                            ]
+                        )
+                    }
+                },
+                label: {
+                    show: false
+                },
+                data: [19325, 23438, 31000, 121594, 134141, 681807, 121594]
+            }
+        ]
+    };
+    _chart.setOption(option, true);
+</script>
