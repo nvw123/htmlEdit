@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="background:rgb(3,5,66)">
+<div id="chart" style="height: 400px; padding-top:20px"></div>
+
+</body>
+</html>
+<script type="text/javascript" src="../common/echarts.js"></script>
+
+<script>
+    var _chart = echarts.init(document.getElementById('chart'));
+    var option = {
+        series: [{
+            type: 'gauge',
+            radius: '100%',
+            startAngle: 210,
+            endAngle: -30,
+            min: 0,
+            max: 100,
+            progress: {
+                show: true,
+                width: 25,
+                itemStyle: {
+                    color: {
+                        type: 'linear',
+                        x: 0,
+                        y: 0,
+                        x2: 0,
+                        y2: 1,
+                        colorStops: [{
+                            offset: 0, color: 'RGB(3,71,255)' // 0% 处的颜色
+                        }, {
+                            offset: 0.5, color: 'RGB(1,168,255)' // 100% 处的颜色
+                        }, {
+                            offset: 1, color: 'RGB(3,71,255)' // 100% 处的颜色
+                        }],
+                        global: false // 缺省为 false
+                    }
+                }
+            },
+            axisLine: {
+                lineStyle: {
+                    width: 25,
+                    color: [[1, 'rgba(0,252,252, 0.2)']]
+                },
+            },
+            axisTick: {
+                show: true,
+            },
+            splitLine: {
+                show: true  //显示仪表盘的刻度线
+            },
+            axisLabel: {
+                show: true,  //显示仪表盘的刻度（数字）
+              	textStyle:{
+              		color:"#fff"
+            	}
+            },
+            anchor: {
+                show: true, //显示仪表线延申到仪表盘上
+            },
+            title: {   //标题的样式设置
+                show: true,
+                offsetCenter: [0, '70%'],
+                fontSize: 50,
+                color: '#ffffff',
+            },
+            pointer: {  //显示仪表盘的指针
+                show: true
+            },
+            detail: {  //显示数值(70%)
+                valueAnimation: '',
+                fontSize: 50,
+                offsetCenter: [0, '20%'],
+                color: '#87d5f5',
+                formatter: function (value) {
+                    return value.toFixed(0) + '%';
+                },
+            },
+            data: [{
+                value: 70,
+                name: '员工满意度'
+            }]
+        }]
+    };
+    _chart.setOption(option, true);
+</script>

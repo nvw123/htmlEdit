@@ -1,0 +1,205 @@
+2021-09-10 21:03:44,854 - LZ - INFO - service start 80
+2021-09-10 21:07:09,617 - LZ - INFO - service start 80
+2021-09-10 21:07:46,694 - LZ - INFO - service start 88
+2021-09-10 21:08:58,819 - LZ - INFO - service start 88
+2021-09-10 21:11:40,977 - LZ - INFO - service start 88
+2021-09-10 21:14:00,386 - LZ - INFO - service start 88
+2021-09-10 21:15:13,169 - LZ - INFO - service start 88
+2021-09-10 21:19:36,082 - LZ - INFO - service start 88
+2021-09-10 21:20:39,037 - LZ - INFO - service start 88
+2021-09-10 21:23:18,360 - LZ - INFO - service start 88
+2021-09-10 21:24:23,234 - LZ - INFO - service start 88
+2021-09-10 21:26:00,509 - LZ - INFO - service start 88
+2021-09-10 21:38:18,164 - LZ - INFO - service start 88
+2021-09-10 21:40:32,163 - LZ - INFO - service start 88
+2021-09-10 21:42:37,021 - LZ - INFO - service start 88
+2021-09-10 22:05:59,667 - LZ - INFO - service start 88
+2021-09-10 22:06:12,811 - LZ - INFO - service start 88
+2021-09-10 22:07:58,875 - LZ - INFO - service start 88
+2021-09-13 15:48:28,951 - LZ - INFO - service start 85
+2021-09-13 16:13:29,533 - LZ - INFO - service start 85
+2021-09-13 16:25:08,104 - LZ - INFO - service start 85
+2021-09-13 16:25:35,524 - LZ - INFO - service start 85
+2021-09-13 16:28:01,542 - LZ - INFO - service start 85
+2021-09-13 16:31:11,518 - LZ - INFO - service start 85
+2021-09-13 16:34:38,255 - LZ - INFO - service start 85
+2021-09-13 16:34:57,531 - LZ - INFO - service start 85
+2021-09-13 16:35:18,920 - LZ - INFO - service start 85
+2021-09-13 16:39:25,973 - LZ - INFO - service start 85
+2021-09-13 16:40:05,286 - LZ - INFO - service start 85
+2021-09-13 16:41:46,509 - LZ - INFO - service start 85
+2021-09-13 16:43:21,446 - LZ - INFO - service start 85
+2021-09-13 16:44:40,956 - LZ - INFO - service start 85
+2021-09-13 16:45:00,970 - LZ - INFO - service start 85
+2021-09-13 16:45:51,637 - LZ - INFO - service start 85
+2021-09-13 16:46:14,158 - LZ - INFO - service start 85
+2021-09-13 16:48:35,521 - LZ - INFO - service start 85
+2021-09-13 16:49:47,655 - LZ - INFO - service start 85
+2021-09-13 16:50:14,288 - LZ - INFO - service start 85
+2021-09-13 16:50:47,821 - LZ - INFO - service start 85
+2021-09-13 16:51:07,241 - LZ - INFO - service start 85
+2021-09-13 16:51:58,654 - LZ - INFO - service start 85
+2021-09-13 17:12:42,375 - LZ - INFO - service start 85
+2021-09-13 17:22:49,349 - LZ - INFO - service start 85
+2021-09-13 17:26:56,585 - LZ - INFO - service start 85
+2021-09-13 17:27:39,143 - LZ - INFO - service start 85
+2021-09-13 17:28:32,974 - LZ - INFO - service start 85
+2021-09-13 17:29:23,870 - LZ - INFO - service start 85
+2021-09-13 21:32:12,140 - LZ - INFO - service start 85
+2021-09-13 21:34:36,614 - LZ - INFO - service start 85
+2021-09-13 21:37:25,631 - LZ - INFO - service start 85
+2021-09-13 21:37:28,513 - LZ - ERROR - 读取文件错误 [Errno 22] Invalid argument: 'http://127.0.0.1:85/static/charts/chart.html'
+2021-09-13 21:37:30,428 - LZ - ERROR - 读取文件错误 [Errno 22] Invalid argument: 'http://127.0.0.1:85/static/charts/chart.html'
+2021-09-13 21:38:09,835 - LZ - ERROR - 读取文件错误 [Errno 22] Invalid argument: 'http://127.0.0.1:85/static/charts/chart.html'
+2021-09-13 21:39:09,844 - LZ - ERROR - 保存文件错误 'data'
+2021-09-13 21:40:18,399 - LZ - INFO - service start 85
+2021-09-13 21:40:29,953 - LZ - ERROR - 读取文件错误 [Errno 22] Invalid argument: 'http://127.0.0.1:85/static/charts/chart.html'
+2021-09-13 21:40:54,396 - LZ - ERROR - 读取文件错误 [Errno 22] Invalid argument: 'http://127.0.0.1:85/static/charts/chart.html'
+2021-09-13 21:41:06,939 - LZ - ERROR - 读取文件错误 [Errno 22] Invalid argument: 'http://127.0.0.1:85/static/charts/chart.html'
+2021-09-13 21:42:07,865 - LZ - ERROR - 保存文件错误 'data'
+2021-09-13 21:43:07,854 - LZ - ERROR - 保存文件错误 'data'
+2021-09-13 21:43:19,061 - LZ - ERROR - 读取文件错误 [Errno 2] No such file or directory: '/static/charts/chart.html'
+2021-09-13 21:43:25,954 - LZ - INFO - service start 85
+2021-09-13 21:43:27,483 - LZ - ERROR - 读取文件错误 [Errno 2] No such file or directory: '/static/charts/chart.html'
+2021-09-13 21:44:09,682 - LZ - INFO - service start 85
+2021-09-13 21:44:54,771 - LZ - INFO - service start 85
+2021-09-13 21:50:02,886 - LZ - INFO - service start 85
+2021-09-13 22:09:33,771 - LZ - INFO - service start 85
+2021-09-13 22:12:46,424 - LZ - INFO - service start 85
+2021-09-13 22:15:59,968 - LZ - INFO - service start 85
+2021-09-14 08:43:48,252 - LZ - INFO - service start 85
+2021-09-14 09:21:32,033 - LZ - INFO - service start 85
+2021-09-14 09:22:16,208 - LZ - INFO - service start 85
+2021-09-14 09:22:47,768 - LZ - ERROR - 保存文件错误 [Errno 22] Invalid argument: 'http://127.0.0.1:85/static/charts/chart_2.html'
+2021-09-14 09:23:27,814 - LZ - ERROR - 保存文件错误 [Errno 22] Invalid argument: 'http://127.0.0.1:85/static/charts/chart_2.html'
+2021-09-14 09:24:15,479 - LZ - ERROR - 保存文件错误 write() argument must be str, not tuple
+2021-09-14 09:27:56,512 - LZ - INFO - service start 85
+2021-09-14 09:28:04,885 - LZ - ERROR - 保存文件错误 write() argument must be str, not tuple
+2021-09-14 09:29:45,633 - LZ - INFO - service start 85
+2021-09-14 09:30:13,502 - LZ - INFO - service start 85
+2021-09-14 09:31:20,819 - LZ - ERROR - 保存文件错误 write() argument must be str, not tuple
+2021-09-14 09:33:07,828 - LZ - ERROR - 保存文件错误 write() argument must be str, not tuple
+2021-09-14 09:34:33,488 - LZ - ERROR - 保存文件错误 write() argument must be str, not tuple
+2021-09-14 09:35:52,808 - LZ - ERROR - 保存文件错误 write() argument must be str, not tuple
+2021-09-14 09:37:41,985 - LZ - INFO - service start 85
+2021-09-14 09:39:51,773 - LZ - INFO - service start 85
+2021-09-14 09:40:10,714 - LZ - INFO - service start 85
+2021-09-14 13:31:28,247 - LZ - INFO - service start 85
+2021-09-14 13:32:42,974 - LZ - INFO - service start 85
+2021-09-14 13:33:02,042 - LZ - INFO - service start 85
+2021-09-14 13:33:28,038 - LZ - INFO - service start 85
+2021-09-14 13:34:21,537 - LZ - INFO - service start 85
+2021-09-14 13:34:50,683 - LZ - INFO - service start 85
+2021-09-14 13:35:07,914 - LZ - INFO - service start 85
+2021-09-14 13:35:12,117 - LZ - ERROR - 读取文件错误 [Errno 2] No such file or directory: 'charts/chart_2.html'
+2021-09-14 13:35:13,045 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:14,029 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:15,056 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:16,035 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:17,042 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:18,036 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:19,028 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:20,030 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:21,055 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:22,038 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:23,029 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:24,040 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:25,028 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:26,031 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:27,037 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:28,041 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:29,078 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:30,084 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:31,087 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:32,087 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:33,071 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:34,085 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:35,085 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:36,086 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:37,089 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:38,081 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:39,079 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:40,071 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:41,079 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:42,079 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:43,088 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:44,069 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:45,078 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:46,075 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:47,080 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:48,080 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:49,075 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:50,082 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:51,075 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:52,085 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:53,076 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:54,086 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:55,074 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:56,075 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:57,103 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:58,070 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:35:59,078 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:00,080 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:01,080 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:02,086 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:03,079 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:04,065 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:05,081 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:06,081 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:07,081 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:08,074 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:09,082 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:10,081 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:11,074 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:12,078 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:13,076 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:14,077 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:15,067 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:16,080 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:17,078 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:18,077 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:19,074 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:20,085 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:21,078 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:22,108 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:23,076 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:24,073 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:25,071 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:26,080 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:27,074 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:28,067 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:29,073 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:30,084 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:31,075 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:32,083 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:33,085 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:34,067 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:35,071 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:36,075 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:37,104 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:38,081 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:39,084 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:41,476 - LZ - INFO - service start 85
+2021-09-14 13:36:41,589 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:41,605 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:42,082 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:43,069 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:44,076 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:45,081 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:46,074 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:47,067 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:48,072 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:49,078 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:36:52,544 - LZ - INFO - service start 85
+2021-09-14 13:36:52,614 - LZ - ERROR - 保存文件错误 'data'
+2021-09-14 13:38:08,535 - LZ - INFO - service start 85
+2021-09-14 13:42:42,221 - LZ - INFO - service start 85
+2021-09-14 13:43:12,991 - LZ - INFO - service start 85
+2021-09-14 13:44:30,677 - LZ - INFO - service start 85
+2021-09-14 13:45:44,628 - LZ - INFO - service start 85
+2021-09-14 13:48:33,109 - LZ - INFO - service start 85
+2021-09-15 11:08:56,071 - LZ - INFO - service start 85
+2021-09-15 11:13:07,444 - LZ - INFO - service start 85
+2021-09-15 11:13:58,659 - LZ - INFO - service start 85
+2021-09-15 13:12:29,157 - LZ - INFO - service start 85
+2021-09-15 14:31:42,800 - LZ - INFO - service start 85
